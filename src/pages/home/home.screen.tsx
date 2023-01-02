@@ -1,14 +1,19 @@
 import React from "react";
 
-import MapView from "react-native-maps";
+import { CardRoutes } from "../../shared/components/cards/card-routes/card-routes.screen";
 
-import { Container } from "./home.styles";
+import { Container, Maps, SafeArea, ContainerCards } from "./home.styles";
 
 const Home: React.FC = () => {
   return (
-    <Container>
-      <MapView style={{ flex: 1 }} />
-    </Container>
+    <SafeArea>
+      <Container>
+        <Maps />
+        <ContainerCards>
+          <CardRoutes />
+        </ContainerCards>
+      </Container>
+    </SafeArea>
   );
 };
 

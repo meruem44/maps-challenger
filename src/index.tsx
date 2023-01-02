@@ -1,15 +1,14 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
 
-import { THEME } from "./shared/styles";
+import { AppProvider } from "./shared/providers/app-provider";
 
 import { Home } from "./pages/home/home.screen";
 
 const MyAplication: React.FC = () => {
   return (
-    <ThemeProvider theme={THEME}>
+    <AppProvider>
       <Home />
-    </ThemeProvider>
+    </AppProvider>
   );
 };
 
