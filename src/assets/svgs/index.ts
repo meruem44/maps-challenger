@@ -4,5 +4,16 @@ import MessageSvg from "./message.svg";
 import SmallMarkerSvg from "./small-marker.svg";
 import StarsSvg from "./stars.svg";
 import LineSvg from "./line.svg";
+import CarSvg from "./car.svg";
+import MarkerSvg from "./marker.svg";
 
-export { CallSvg, CarImageSvg, MessageSvg, SmallMarkerSvg, StarsSvg, LineSvg };
+export {
+  CallSvg,
+  CarImageSvg,
+  MessageSvg,
+  SmallMarkerSvg,
+  StarsSvg,
+  LineSvg,
+  CarSvg,
+  MarkerSvg,
+};
