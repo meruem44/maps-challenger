@@ -5,4 +5,5 @@ declare interface THEME {
   SECONDARY: string;
   TERTIARY: string;
   SUB_TEXT_COLOR: string;
+  BORDER: string;
 }
