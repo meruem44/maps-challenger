@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components/native";
-import { RFValue } from "../../../libs/font-sizes";
+import { RFValue } from "@libs/font-sizes";
 
 export type TEXT_TYPES = "h1" | "h2" | "d1" | "d2";
 

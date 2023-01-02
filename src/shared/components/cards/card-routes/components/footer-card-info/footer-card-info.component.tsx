@@ -1,9 +1,9 @@
 import React from "react";
 
-import { CarImageSvg } from "../../../../../../assets/svgs";
+import { CarImageSvg } from "@assets/svgs";
 
-import { ButtonPrimary } from "../../../../buttons/button-primary/button-primary.component";
-import { DefaultText } from "../../../../texts/default-text/default-text.component";
+import { ButtonPrimary } from "@buttons/button-primary/button-primary.component";
+import { DefaultText } from "@texts/default-text/default-text.component";
 
 import {
   Container,

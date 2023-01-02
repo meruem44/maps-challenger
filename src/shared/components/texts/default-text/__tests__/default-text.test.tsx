@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react-native";
 
-import { AppProvider } from "../../../../providers/app-provider";
+import { AppProvider } from "@providers/app-provider";
 import { DefaultText, TEST_ID } from "../default-text.component";
 
 const TEXT = "I LOVE YOU";

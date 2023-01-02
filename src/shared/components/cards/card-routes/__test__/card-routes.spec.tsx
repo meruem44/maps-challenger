@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react-native";
 
-import { AppProvider } from "../../../../providers/app-provider";
+import { AppProvider } from "@providers/app-provider";
 import { CardRoutes, CONTAINER_ID, CONTENT_ID } from "../card-routes.screen";
 
 describe("button primary", () => {

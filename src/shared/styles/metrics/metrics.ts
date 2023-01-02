@@ -1,4 +1,4 @@
-import { RFValue } from "../../libs/font-sizes";
+import { RFValue } from "@libs/font-sizes";
 
 export const METRICS = {
   FONT_SIZES: {

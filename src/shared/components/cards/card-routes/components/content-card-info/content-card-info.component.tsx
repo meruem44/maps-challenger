@@ -1,7 +1,7 @@
 import React from "react";
 
-import { SmallMarkerSvg, LineSvg } from "../../../../../../assets/svgs";
-import { RFValue } from "../../../../../libs/font-sizes";
+import { SmallMarkerSvg, LineSvg } from "@assets/svgs";
+import { RFValue } from "@libs/font-sizes";
 
 import {
   Container,

@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { RFValue } from "../../shared/libs/font-sizes";
+import { RFValue } from "@shared/libs/font-sizes";
 
 export const SafeArea = styled.SafeAreaView`
   flex: 1;

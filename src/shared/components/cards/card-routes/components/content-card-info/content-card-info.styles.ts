@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
-import { RFValue } from "../../../../../libs/font-sizes";
-import { DefaultText } from "../../../../texts/default-text/default-text.component";
+import { RFValue } from "@libs/font-sizes";
+import { DefaultText } from "@texts/default-text/default-text.component";
 
 export const Container = styled.View`
   flex-direction: row;

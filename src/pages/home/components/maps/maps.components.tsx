@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { AnimatedRegion, Marker } from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 
-import { CarSvg, MarkerSvg } from "../../../../assets/svgs";
+import { CarSvg, MarkerSvg } from "@assets/svgs";
 
 import { MapsView } from "./maps.styles";
 
