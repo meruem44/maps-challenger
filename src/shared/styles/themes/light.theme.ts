@@ -5,4 +5,5 @@ export const LIGHT_THEME: THEME = {
   SECONDARY: "#4CE5B1",
   TERTIARY: "#4252FF",
   SUB_TEXT_COLOR: "#C8C7CC",
+  BORDER: "#EFEFF4",
 };

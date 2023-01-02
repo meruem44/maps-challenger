@@ -15,7 +15,7 @@ export const Text = styled.Text<TextProps>`
     css`
       font-size: ${RFValue(17)}px;
       line-height: ${RFValue(21)}px;
-      font-family: ${({ theme }) => theme.FONTS.SEMI_BOLD};
+      font-family: ${({ theme }) => theme.FONTS.BOLD};
     `}
 
   ${({ type }) =>
@@ -23,7 +23,7 @@ export const Text = styled.Text<TextProps>`
     css`
       font-size: ${RFValue(17)}px;
       line-height: ${RFValue(21)}px;
-      font-family: ${({ theme }) => theme.FONTS.REGULAR};
+      font-family: ${({ theme }) => theme.FONTS.SEMI_BOLD};
     `}
 
     ${({ type }) =>
