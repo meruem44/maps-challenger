@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { AnimatedRegion, Marker } from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 
+import { API_GOOGLE_MAPS_KEY } from "@env";
+
 import { CarSvg, MarkerSvg } from "@assets/svgs";
 
 import { MapsView } from "./maps.styles";
@@ -61,7 +63,7 @@ const Maps: React.FC = () => {
       <MapViewDirections
         origin={ORIGIN}
         destination={DESTINATION}
-        apikey="AIzaSyD2qubDpWs84Gpjk0zorEh7SRlCD1NO1Ro"
+        apikey={API_GOOGLE_MAPS_KEY}
         strokeWidth={4}
         strokeColor="#111111"
         strokeColors={["#9722FB", "#3A5DFB"]}

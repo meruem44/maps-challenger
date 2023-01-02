@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { RFValue } from "@libs/font-sizes";
+import { RFValue } from "@shared/libs/font-sizes";
 
 export const Container = styled.View`
   width: 100%;

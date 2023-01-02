@@ -1,9 +1,9 @@
 import React from "react";
-import { RFValue } from "@libs/font-sizes";
+import { RFValue } from "@shared/libs/font-sizes";
 
 import { StarsSvg, CallSvg, MessageSvg } from "@assets/svgs";
 
-import { DefaultText } from "@texts/default-text/default-text.component";
+import { DefaultText } from "@shared/components/texts/default-text/default-text.component";
 
 import {
   Container,
