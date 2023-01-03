@@ -1,8 +1,7 @@
 
 
-## Desafio Maps Challenger
+## Maps Challenger
 
-##Segue o desafio proposto para o processo seletivo da SOON.
 
 Nesse projeto realizei a implementação de uma "simulação" de um app que realiza o trajeto em tempo real. Para isso, implementei uma simulação mockada utilizando a biblioteca react-native-maps.
 
